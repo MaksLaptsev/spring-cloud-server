@@ -45,3 +45,5 @@ spring:
 - name: SpringBootHW - будет именем клиентского сервиса, по этому имени будет идти поиск папки с нужным конфигом в удаленном репозитории
 - profiles: active: dev - текущий профиль, согласно которому будут искаться конфиги
 - config: import: `optional:configserver:http://localhost:8888/` - адрес spring cloud config server , от которого будут получены необходимые конфиги
+
+- Делалось по этой статье [хабр](https://habr.com/ru/articles/764402/)
